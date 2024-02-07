@@ -8,17 +8,19 @@ import Footer from "./Footer/Footer";
 import { useEffect } from "react";
 import Loader from "./loader/loader";
 import CommPart from "./commpart/commpart";
+import FooterSamp from "./Footer/FooterSamp";
 
 export default function landing() {
   return (
-      <>
+    <>
       <Hero />
       <About />
       <Previous />
-      <CommPart/>
+      <CommPart />
       <FAQPage />
       <Contact />
       <Footer />
-   </>
+      {/* <FooterSamp /> */}
+    </>
   );
 }
